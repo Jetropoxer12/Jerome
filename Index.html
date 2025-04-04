@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Guessing Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #message {
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+        .correct {
+            color: green;
+        }
+        .incorrect {
+            color: red;
+        }
+        #clue {
+            margin-top: 20px;
+            font-size: 1em;
+        }
+        footer {
+            margin-top: 60px;
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Word Guessing Game</h1>
+    <p>Guess the secret word!</p>
+    <input type="text" id="guessInput" placeholder="Enter your guess">
+    <button id="submitGuess" type="button">Submit Guess</button>
+    <button id="restartGame" style="display:none;">Restart Game</button>
+    <div id="message"></div>
+    <div id="clue"></div>
+    
+    <footer>
+        <p>Programmed by: Jerome C. Bendicio BSIT-2A</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
